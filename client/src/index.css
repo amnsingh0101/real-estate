@@ -1,4 +1,7 @@
-@import "tailwindcss";
-body {
-  background-color: rgb(241, 245, 241);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(241, 245, 241);
 }
